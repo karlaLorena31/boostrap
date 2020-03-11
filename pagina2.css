@@ -1,0 +1,13 @@
+body {
+  background: url("247.jpg");/* carga la imagen de una ruta*/
+  background-repeat: no-repeat;/* el fondo no se repite como mosaico*/
+  background-attachment: fixed; /*la imagen permanece fija en el contenedor*/
+  background-size: cover; /* escala la imagen al mayor tamaño posible sin estirarla, si las proporciones de la imagen difieren de las del elemento, es recortada verticall u horizontalemnte para que no quede espacio vacío*/
+}
+
+input::placeholder {
+  color: white !important;
+}
+
+
+
